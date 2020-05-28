@@ -1,0 +1,116 @@
+<html>
+<head>
+</head>
+<body>
+
+<img src="selfpicblurred.png"
+style="width:150px;
+clip-path: circle(50% at center);
+"
+></img>
+
+<h1> Kevin O'Neill </h1>
+
+<h2> Research Projects </h2>
+<ul>
+	<li>
+		<b>TDA analysis of protein secondary structure</b>
+		<p> As part of the Summer of Topological Data Analysis, with the AFRL 711th Human Performance Wing, 
+		I and my team used topological data analysis methods to predict protein secondary structure from its amino acid sequence.  </p>
+		<p>The structure of a protein determines its functions and how it interacts with other molecules, and this structure is 
+		determined by the interactions between the sequence of amino acids it is made of.  Determining the structure a protein will fold into
+		is one of the most difficult problems in biochemistry, and an efficient and accurate predictor of protein structure would be important in 
+		developing new drug treatments and biotechnology techniques.  </p>
+		
+		<p>Our predictor is primarily programmed in python, however other components are
+		programmed in R, or make use of the <a href="https://www.ayasdi.com/">AYASDI</a> web service implementing the 
+		<a href="http://danifold.net/mapper/introduction.html">mapper</a> algorithm for topological data analysis.  
+		</p>
+		<p><a href="./ProteinFoldingOutbrief.pdf">Our outbrief presentation</a></p>
+		<p><a href="https://github.com/koneill1994/Protein_TDA_Analysis">Link to the code</a></p>
+	</li>
+	<li>
+		<b>Minimum Effort Game</b>
+		<p> Psychological experiment software implementating the Minimum Effort Game <a href="https://www.jstor.org/stable/2006745">(Van Huyck, Battalio, & Beil 1990)</a>, 
+		a game of strategic interaction which simulates situations where the payoff to each person of a group is dependent on the effort expended by the 
+		least-effortful player.  </p>
+		<p>This game is interesting in the field of <a href="https://en.wikipedia.org/wiki/Game_theory">game theory</a>,
+		and can help in investigating human responses to game-theoretical problems, such as the <a href="https://en.wikipedia.org/wiki/Free-rider_problem">free-rider problem.</a></p>
+		<p>This implementation supports 4 players by default, and is programmed in <a href="https://www.otree.org/">oTree</a>, involving
+		a combination of python, javascript, and html.</p>
+		<p><a href="https://github.com/koneill1994/MinimumEffortGame_otree">Link to code</a></p>
+	</li>
+	<li>
+		<b>EWA model</b>
+		<p> Software which models human behavior in the Minimum Effort Game, using the 
+		Experience Weighted Attraction (EWA) learning model <a href="https://doi.org/10.1111/1468-0262.00054">(Camerer, & Hua Ho 1999)</a> </p>
+		<p>This implementation is programmed in R, and utilizes paralellized computation, full parameter search, and hill-climbing parameter search.
+		I also prepared an extensive readme to help with understanding the software and my techniques.  </p>
+		<p><a href="https://github.com/koneill1994/MEG_EWA_model">Link to code</a></p>
+	</li>
+	<li>
+		<b>Academic Family Tree Visualizer</b>
+		<p> An academic family tree is similar to a normal family tree, but with advisor-student relationships replacing parent-child relationships </p>
+		<p> This project is comprised of a python script I wrote to <a href="https://en.wikipedia.org/wiki/Web_scraping">scrape</a> 
+		pages off of <a href="https://academictree.org/">academictree.org</a>, and a webpage which uses the <a href="https://d3js.org/">d3.js</a> javascript library to display my own 
+		academic family tree.  
+		</p>
+		<p>Like almost everyone in the field of psychology, my academic lineage contains such figures as 
+		<a href="https://en.wikipedia.org/wiki/Sigmund_Freud">Sigmund Freud</a>, 
+		<a href="https://en.wikipedia.org/wiki/Wilhelm_Wundt">Wilhelm Wundt</a>, 
+		<a href="https://en.wikipedia.org/wiki/Max_Planck">Max Planck</a>, and 
+		<a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a>.  See if you can find them!
+		</p>
+		<p><a href="https://koneill1994.github.io/AcademicTreeVisualizer/html/d3test2.html"> My academic tree visualization</a></p>
+		<p><a href="https://github.com/koneill1994/AcademicTreeVisualizer"> Link to the code </a></p>
+	</li>
+	<li>
+		<b>FlowTetris</b>
+		<p>Version of <a href="https://doi.org/10.3758/s13428-014-0547-y">Lindstedt and Gray's (2015)</a> Meta-T Tetris software for behavioral science research,
+		with alterations designed to manipulate the subject's experience of flow through an adaptive difficulty piece choice mechanism.  
+		</p>
+		<p>This experiment and related investigations of flow state as a cognitive phenomenon are the subject of my Master's thesis, expected Summer 2020.</p>
+		<p><a href="MastersThesisProposal.pdf">My thesis proposal</a> (to be replaced at a later point with my completed thesis.)</p>
+	</li>
+	<li>
+		<b>Perceptual Learning Tetris</b>
+		<p>Experiment software written in the python library <a href="https://www.psychopy.org/">PsychoPy</a>,
+		which implements a perceptual learning experiment for distinguishing Tetris pieces of different
+		shapes and orientations.  Designed during my last semester as an undergrad researcher in Wayne Gray's 
+		<a href="http://cogworks.cogsci.rpi.edu/">CogWorks Lab</a> at RPI.  
+		</p>
+		<p><a href="https://github.com/CogWorks/PL-Tetris">Link to Code</a></p>
+	</li>
+</ul>
+
+
+<h2> Personal Projects </h2>
+<ul>
+	<li>
+		<b>	Ireland vacation panoramas</b>
+		<p> In the summer of 2019 I went with my family on a trip to Ireland.  
+		While there I took a number of panoramic photos, stitched them together using <a href="http://hugin.sourceforge.net/">Hugin</a>,
+		and put together a webpage that could display them using <a href="https://pannellum.org/">pannellum</a>.</p>
+		<p>The first two panoramas are of <a href="https://en.wikipedia.org/wiki/Croagh_Patrick">Croagh Patrick</a>, a 
+		mountain in County Mayo which we hiked up, and which was said to be the mountain from which St. Patrick banished all snakes from Ireland.  
+		</p>
+		<p>The remaining three panoramas were taken on <a href="https://en.wikipedia.org/wiki/Inishbofin,_County_Galway">Inishbofin</a>, 
+		a picturesque island off the coast of Connemara, where some of my ancestors lived over 200 years ago.  
+		</p>
+		<p><a href="https://koneill1994.github.io/ireland_panorama/">View the panoramas!</a></p>
+		<p><a href="https://github.com/koneill1994/ireland_panorama">View the code</a></p>
+	</li>
+	<li>
+		<b>Simple JavaScript Star Simulator</b>
+		<p>A cute little browser toy I made when teaching myself javascript.  
+		It uses a <a href="https://www.w3schools.com/html/html5_canvas.asp"> canvas </a> element
+		to draw the star field.  </p>
+		<p><a href="https://koneill1994.github.io/js-test/stars.html">Check it out!</a></p>
+		<p><a href="https://github.com/koneill1994/js-test">View the code</a></p>
+	</li>
+</ul>
+
+
+</body>
+
+</html>
